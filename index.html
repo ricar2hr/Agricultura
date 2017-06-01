@@ -1,181 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<title>Inicio | Agricultura en Venezuela - Todo sobre la agricultura a tu alcance</title>
 
-    <title>Agricultura en Venezuela - Ricardo and Andrea's project</title>
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
+<body class="home">
 
-<body>
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="assets/images/600293.jpg" alt="">
+			<span class="title">Agricultura en Venezuela</span>
+			<span class="tagline">Bienvendio a Agricultura en Venezuela<br>
+				<a href="">Proyecto de Andrea y Ricardo</a></span>
+		</h1>
+	</div>
 
-    <div class="brand">Agricultura en Venezuela</div>
-    <div class="address-bar">Colegio "El Carmelo" | Cagua, Aragua | Venezuela</div>
+	<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="about.html">Imagenes</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Videos</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Preguntas frecuentes</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
 
-    <div class="container">
+			<div class="navbar-collapse collapse">
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Inicio</a></li>
+					<li><a href="about.html">Imagenes</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Videos <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="sidebar-left.html">Left Sidebar</a></li>
+							<li><a href="sidebar-right.html">Right Sidebar</a></li>
+							<li><a href="single.html">Blog post</a></li>
+						</ul>
+					</li>
+					<li><a href="blog.html">Preguntas frecuentes</a></li>
+				</ul>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
-                            </div>
-                        </div>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+</header>
 
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    <h2 class="brand-before">
-                        <small>Bienvenidos a</small>
-                    </h2>
-                    <h1 class="brand-name">Agricultura en Venezuela</h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small>By
-                            <strong>Ricardo and Andrea's project</strong>
-                        </small>
-                    </h2>
-                </div>
-            </div>
-        </div>
+<main id="main">
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Build a website
-                        <strong>worth visiting</strong>
-                    </h2>
-                    <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-            </div>
-        </div>
+	<div class="container">
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
-                    </h2>
-                    <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-            </div>
-        </div>
+		<div class="row section topspace">
+			<div class="col-md-12">
+				<p class="lead text-center text-muted">Disfruta de las formas de cultivos, como matar plagas, como tratar la tierra y las malezas. Esta página está dedicada esencialmente a los estudiantes y personas que desean instruirse sobre la  <a href="about.html">agricultura</a> y formas de <a href="sidebar-right.html">cultivar</a>. </p>
+			</div>
+		</div> <!-- / section -->
 
-    </div>
-    <!-- /.container -->
+		<div class="row section featured topspace">
+			<h2 class="section-title"><span>AGRICULTURA</span></h2>
+			<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">¿Qué es?</h3>
+					<p>La agricultura se define como “el arte de cultivar la tierra” proviene del latín ager, agri (campo) y cultura (cultivo). Es una actividad que se ocupa de la producción de cultivo del suelo, el desarrollo y recogida de las cosechas, la explotación de bosques y selvas (silvicultura), la cría y desarrollo de ganado.
+<br>
+Es una de las actividades del sector primario de cada nación, siendo el recurso más importante con el que cuenta el hombre para su subsistencia; una porción de los productos agrícolas es consumida de manera directa y otra es proporcionada a la industria para obtención de alimentos derivados, materiales textiles, químicos o manufactureros.
+</p>
+					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Inicios de la agricultura</h3>
+					<p>La actividad agrícola comenzó a practicarse en el próximo Oriente a partir de la revolución neolítica (hacia el año 7.000 a.C), junto con la ganadería; desde esos tiempos la agricultura tuvo un papel transcendental en el desarrollo de las sociedades humanas, al propiciar condiciones favorables para el paso del nomadismo al sedentarismo, con el que diera el comienzo al proceso de civilización.</p>
+					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Producción agrícola venezolana </h3>
+					<p>La producción agrícola en Venezuela está repartida de forma irregular al igual que su población. Las principales zonas de cultivo las encontramos en los valles de las cordilleras de los Andes y de la costa, además de las laderas de las mismas. En las zonas de baja altitud predominan los cultivos tropicales y subtropicales, mientras que los cultivos del trigo y la papa se realizan a una mayor altura. Pero donde se concentra gran parte de la producción agrícola del país es en los valles de Carabobo y Aragua, ya que apenas encontramos regiones planas y extensas, al disponer de un clima suave lo que permite cultivar una gran cantidad de productos.
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>ELABORADO POR: &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+</p>
+					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center"> Tipos de agricultura</h3>
+					<p> Agricultura extensiva
+						<br>
+Agricultura intensiva
+<br>
+Agricultura itinerante
+<br>
+Agricultura de subsistencia
+<br>
+Agricultura industrial
+<br>
+Agricultura ecológica
+<br>
+Agricultura natural
+<br>
+Pero esto no es todo... Sigue explorando nuestra página para conocer todo acerca de los tipos de agricultura.
+</p>
+					<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
+				</div>
+			</div>
+		</div> <!-- / section -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+		<div class="row section recentworks topspace">
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+			<h2 class="section-title"><span>NOTICIAS</span></h2>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+			<div class="thumbnails recentworks row">
 
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/naranjas.aginax.jpg" alt="">
+							<span class="cover"><span class="more">Ver detalles &rarr;</span></span>
+						</span>
+						<span class="title">Venezuela interesada en exportar frutas y café a Rusia</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a> | <a href="">Logotype</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Pure ipsum - development services for people</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Lorem studios - interior and patio design</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Pure ipsum - development services for people</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Lorem studios - interior and patio design</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Lorem studios - interior and patio design</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+
+		</div> <!-- /section -->
+
+
+
+
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contactanos</h3>
+				<div class="widget-body">
+					<p>0412-5339101
+						<br>
+						0424-2687981
+						<br>
+						0414-3441231
+						<br>
+						<a href="mailto:#">actuallyricar2af@gmail.com</a><br>
+						<a href="mailto:#">andreadiazmontoya@gmail.com</a><br>
+						<br>
+						Cagua, estado Aragua, Venezuela
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Síguenos</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+						<a href=""><i class="fa fa-twitter fa-2"></i></a>
+						<a href=""><i class="fa fa-flickr fa-2"></i></a>
+						<a href=""><i class="fa fa-github fa-2"></i></a>
+						<a href=""><i class="fa fa-facebook fa-2"></i></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Nota</h3>
+				<div class="widget-body">
+					<p>Es un placer para nosotros que hayas decidido visitar nuestra página web que viene siendo nuestro proyecto final de 3 año ya que es el último lapso que veremos informática.</p>
+					<p>Esperamos que disfrutes de nuestra página, cualquier duda sobre la agricultura ve a “preguntas frecuentes” a ver si ahí está la respuesta a tu pregunta, en el caso de que no, contáctanos. </p>
+<p>También te invitamos a apreciar nuestras asombrosas imágenes y videos. </p>
+				</div>
+			</div>
+
+
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Inicio|Imagenes|Videos|Preguntas frecuentes </p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2017, Andrez Díaz y Ricardo Hernandez<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
+				</div>
+			</div>
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
 </body>
-
 </html>
